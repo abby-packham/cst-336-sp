@@ -1,0 +1,11 @@
+Two new HTML tags
+
+<link href="">
+<div id="landingText">
+
+Two new CSS properties
+
+my css folder original got deleted :( but i used both these originally
+-webkit-animation: fadein 3s;
+-moz-animation: fadein 3s; 
+
