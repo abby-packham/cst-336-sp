@@ -1,10 +1,10 @@
 <?php
-function getDataBaseconnection(){
+function getDataBaseconnection($dbname='tcp'){
 
     $host = 'localhost';
-    $dbname=$opt;
+   
     
-    $username='pack4397';
+    $username='root';
     $password='';
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname",$username,$password);
     $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
